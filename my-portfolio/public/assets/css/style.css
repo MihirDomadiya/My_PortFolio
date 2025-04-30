@@ -1,0 +1,37 @@
+.aboutSection {
+    background: linear-gradient(to bottom, #071e3d, #000);
+}
+
+.sectionTitle {
+    color: #3f92ff;
+    font-size: 18px;
+}
+
+.heading {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 850px;
+}
+
+.typography {
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    text-decoration: underline wavy white;
+}
+
+.curly {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.colorful {
+    font-weight: bold;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
