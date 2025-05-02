@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Header() {
     return (
         <div
-            className="col-md-7 col-12 bg-transparent nav-container"
+            className="col-md-7 col-12 bg-transparent mt-3 nav-container"
         >
             <div className="p-2 text-white ">
 
