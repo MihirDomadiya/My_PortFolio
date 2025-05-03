@@ -98,7 +98,8 @@ path {
     margin-top: 169px !important;
 }
 
-.about-section {
+.about-section,
+.skills-container {
     margin-top: 270px;
 }
 
@@ -108,4 +109,50 @@ path {
     bottom: -19px;
     transform: rotate(-17deg);
     transform-origin: bottom left;
+}
+
+/* skills */
+
+.slider-track {
+    animation: scroll 30s linear infinite;
+    width: max-content;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.skills-title {
+    margin-bottom: 100px;
+    font-size: 70px;
+    font-family: 'Bebas Neue';
+}
+
+@keyframes scroll-horizontal {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.skills-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.vertical-fade-text {
+    background: linear-gradient(to bottom, #565656 0%, #00000000 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 63px;
 }
