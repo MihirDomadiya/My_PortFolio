@@ -1,6 +1,6 @@
 import About from "@/components/About";
 import Header from "@/components/Header";
-import Starter from "@/components/starter";
+import Starter from "@/components/Starter";
 
 export default function Home() {
     return (

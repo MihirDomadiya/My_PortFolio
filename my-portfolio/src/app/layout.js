@@ -21,9 +21,11 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <head>
+                <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
-                <link href="https://fonts.googleapis.com/css2?family=Anton&family=New+Rocker&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hammersmith+One&display=swap" rel="stylesheet" />
             </head>
             <body className={`${geistSans.variable} ${geistMono.variable} bg-black`}>
                 {children}
