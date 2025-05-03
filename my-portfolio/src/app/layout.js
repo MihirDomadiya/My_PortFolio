@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
                 className={`antialiased bg-black`}
             >
                 {children}
-                <script src="/assets/js/skills.js"></script>
+                {/* <script src="/assets/js/skills.js"></script> */}
             </body>
         </html>
     );

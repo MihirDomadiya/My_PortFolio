@@ -99,7 +99,8 @@ path {
 }
 
 .about-section,
-.skills-container {
+.skills-container,
+.connect-container {
     margin-top: 270px;
 }
 
@@ -155,4 +156,27 @@ path {
     -webkit-text-fill-color: transparent;
     position: relative;
     top: 63px;
+}
+
+/* Connect */
+.spline-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.spline-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    background: white;
+    z-index: -1;
+}
+
+.form-control:focus {
+    background-color: #202020;
+    color: white;
+    border-color: #4d4d4d;
 }
