@@ -1,16 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "../../public/assets/css/globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
-});
 
 export const metadata = {
     title: "Create Next App",
@@ -27,7 +16,9 @@ export default function RootLayout({ children }) {
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hammersmith+One&display=swap" rel="stylesheet" />
             </head>
-            <body className={`${geistSans.variable} ${geistMono.variable} bg-black`}>
+            <body
+                className={`antialiased bg-black`}
+            >
                 {children}
             </body>
         </html>

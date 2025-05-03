@@ -7,7 +7,7 @@ export default function Header() {
         <div
             className="col-md-7 col-12 bg-transparent mt-3 nav-container"
         >
-            <div className="p-2 text-white ">
+            <div className="inner-nav  text-white ">
 
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex align-items-center">
@@ -40,7 +40,7 @@ export default function Header() {
                             Blog
                         </a>
                     </div>
-                    <button className="btn btn-outline-light rounded-pill px-4 py-2">
+                    <button className="btn text-white rounded-pill btn-connect px-4 py-2">
                         Let's Connect
                     </button>
                 </div>
