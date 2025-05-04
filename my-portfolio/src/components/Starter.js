@@ -3,8 +3,8 @@ import React from 'react'
 export default function starter() {
     return (
         <div className=''>
-            <div >
-                <img src='/assets/images/ellipse.png' alt="ellpse-1" className='ellipse-1 mx-auto d-block' />
+            <div>
+                <img src='/assets/images/ellipse2.png' alt="ellpse-1" className='ellipse-1 mx-auto d-block' />
             </div>
             <div className='text-center starter-section'>
                 <p className={`fw-bold sectionTitle`}>Code in Details</p>

@@ -82,7 +82,7 @@ path {
 
 .ellipse-1 {
     position: absolute;
-    top: -283px;
+    bottom: 503px;
     z-index: -1;
     left: 0;
     width: 100%;
@@ -95,7 +95,7 @@ path {
 }
 
 .starter-section {
-    margin-top: 169px !important;
+    margin-top: 270px !important;
 }
 
 .about-section,
@@ -155,13 +155,14 @@ path {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
-    top: 63px;
+    top: 81px;
 }
 
 /* Connect */
 .spline-container {
     position: relative;
     overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .spline-container::after {
@@ -179,4 +180,27 @@ path {
     background-color: #202020;
     color: white;
     border-color: #4d4d4d;
+}
+
+/* footer */
+
+.logo {
+    font-family: 'Rubik Iso', cursive;
+    transform: rotateX(20deg);
+    transition: transform 2s ease-in-out;
+    cursor: pointer;
+}
+
+.rotate {
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
 }
