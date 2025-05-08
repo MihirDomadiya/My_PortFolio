@@ -4,6 +4,7 @@ import Starter from "@/components/Starter";
 import Skills from "@/components/Skills";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
+import Journey from "@/components/Journey";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Header />
             <Starter />
             <About />
+            <Journey />
             <Skills />
             <Connect />
             <Footer />
