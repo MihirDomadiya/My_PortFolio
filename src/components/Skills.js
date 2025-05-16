@@ -29,8 +29,11 @@ const InfiniteSkillsSlider = () => {
     return (
         <div className="w-full skills-container bg-black py-10 overflow-hidden">
             {/* <h2 className="text-white skills-title text-center">Dev Showcase</h2> */}
-            <h1 className="text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text">
+            <h1 className="text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text d-none d-md-block">
                 Dev Showcase
+            </h1>
+            <h1 className="text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text d-md-none d-block">
+                devShow
             </h1>
 
             <div className="slider-track flex">

@@ -12,7 +12,7 @@ export default function starter() {
             </div>
 
             <div className='signature-section position-relative'>
-                <img src='/assets/images/signature/big-text.gif' alt="signature" className='signature position-absolute' />
+                {/* <img src='/assets/images/signature/big-text.gif' alt="signature" className='signature position-absolute' /> */}
                 {/* <video src='assets/images/signature/Signature.mp4' className='signature position-absolute' autoPlay ></video> */}
             </div>
         </div >

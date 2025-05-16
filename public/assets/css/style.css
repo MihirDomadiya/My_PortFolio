@@ -150,7 +150,8 @@ path {
     position: relative;
 }
 
-.vertical-fade-text {
+.vertical-fade-text,
+.vertical-fade-text-2 {
     background: linear-gradient(to bottom, #565656 0%, #00000000 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -243,8 +244,128 @@ path {
     transform: scale(1);
 }
 
+@media (max-width:1350px) {
+    .vertical-fade-text {
+        font-size: 118px !important;
+        top: 57px;
+    }
+
+    .vertical-fade-text-2 {
+        top: 80px;
+    }
+}
+
+@media (max-width:1139px) {
+    .vertical-fade-text-2 {
+        font-size: 112px !important;
+        top: 77px;
+    }
+}
+
+@media (max-width:1075px) {
+    .vertical-fade-text {
+        font-size: 92px !important;
+        top: 48px;
+    }
+}
+
+@media (max-width:971px) {
+    .vertical-fade-text-2 {
+        font-size: 79px !important;
+        top: 65px;
+    }
+}
+
+@media (max-width:827px) {
+    .vertical-fade-text {
+        font-size: 79px !important;
+        top: 43px;
+    }
+
+    .vertical-fade-text-2 {
+        top: 63px;
+    }
+}
+
 @media (max-width: 768px) {
     .timeline-item:hover .timeline-badge {
         transform: scale(1.2);
+    }
+}
+
+@media (max-width: 700px) {
+    .vertical-fade-text-2 {
+        font-weight: 500 !important;
+        font-size: 67px !important;
+    }
+}
+
+@media (max-width:830px) {
+    .portfolio-text {
+        font-size: 170px;
+    }
+}
+
+@media (max-width:647px) {
+    .portfolio-text {
+        font-size: 140px;
+    }
+}
+
+@media (max-width:550px) {
+    .vertical-fade-text-2 {
+        font-size: 53px !important;
+        top: 58px;
+    }
+}
+
+@media (max-width:483px) {
+    .heading {
+        font-size: 44px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .portfolio-text {
+        font-size: 100px;
+    }
+
+    .sectionTitle {
+        font-size: 16px;
+    }
+
+    .vertical-fade-text {
+        font-size: 66px !important;
+        top: 36px;
+    }
+
+    .vertical-fade-text-2 {
+        font-size: 37px !important;
+        top: 51px;
+    }
+}
+
+@media (max-width:400px) {
+    .portfolio-text {
+        font-size: 83px;
+    }
+
+    .sectionTitle {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .heading {
+        font-size: 36px;
+    }
+
+    .vertical-fade-text {
+        font-size: 53px !important;
+        top: 28px;
     }
 }

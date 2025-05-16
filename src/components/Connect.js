@@ -13,7 +13,7 @@ export default function Connect() {
 
     return (
         <div className="w-full connect-container bg-black py-10 overflow-hidden text-white">
-            <h1 className="text-4xl md:text-6xl lg:text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text leading-none mb-10">
+            <h1 className="text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text-2 leading-none mb-10">
                 Let's connect
             </h1>
 
