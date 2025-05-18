@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 import React, { useState } from 'react';
 
 export default function Connect() {
@@ -16,13 +16,11 @@ export default function Connect() {
             <h1 className="text-[137px] font-extrabold uppercase tracking-wider text-center vertical-fade-text-2 leading-none mb-10">
                 Let's connect
             </h1>
-
             <div className="container mx-auto px-4">
                 <div className="row d-flex flex-column-reverse flex-lg-row ">
                     <div className="col-12 col-lg-6 mb-5 mb-lg-0">
                         <div className="bg-[#111] rounded-xl p-6 shadow-lg border-1 border-[#313131]">
                             <h1 className="text-xl font-semibold mb-4">Connect with me</h1>
-
                             <div className="row mb-3">
                                 <div className="col-6">
                                     <label className="text-[#c2c2c2] text-sm">First name *</label>
@@ -41,7 +39,6 @@ export default function Connect() {
                                     />
                                 </div>
                             </div>
-
                             <div className="row mb-3">
                                 <div className="col-6">
                                     <label className="text-[#c2c2c2] text-sm">Email *</label>
@@ -60,7 +57,6 @@ export default function Connect() {
                                     />
                                 </div>
                             </div>
-
                             <div className="mb-3">
                                 <label className="text-[#c2c2c2] text-sm mb-1">Your Requirement</label>
                                 <div className="flex flex-wrap gap-2">
@@ -79,7 +75,6 @@ export default function Connect() {
                                     ))}
                                 </div>
                             </div>
-
                             <div className="mb-4">
                                 <label className="text-[#c2c2c2] text-sm mb-1">How can I help?</label>
                                 <textarea
@@ -88,7 +83,6 @@ export default function Connect() {
                                     className="form-control bg-[#202020] text-white placeholder-[#6e6e6e] border-1 border-[#4d4d4d] mt-1"
                                 />
                             </div>
-
                             <div>
                                 <button className="w-full py-2 bg-white text-black font-semibold rounded-xl hover:bg-gray-200 transition">
                                     Submit
@@ -96,7 +90,6 @@ export default function Connect() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-12 col-lg-6 mb-4 mb-lg-0 d-flex justify-content-center rounded-xl p-6 shadow-lg border-1 border-[#313131]">
                         <div className="w-full max-w-[600px] aspect-video rounded-lg overflow-hidden">
                             <iframe
