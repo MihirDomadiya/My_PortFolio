@@ -1,13 +1,22 @@
+'use client'
+
 import React from "react";
 import "../../public/assets/css/style.css";
 import Image from "next/image";
 
 export default function Header() {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <>
             <div className="relative d-sm-block d-none">
                 <div className="col-xl-7 col-9 bg-transparent mt-3 nav-container">
-                    <div className="inner-nav  text-white ">
+                    <div className="inner-nav text-white">
                         <div className="d-flex justify-content-between align-items-center">
                             <div className="d-flex align-items-center">
                                 <Image
@@ -20,26 +29,20 @@ export default function Header() {
                                 <h5 className="mb-0 fw-bold">Mihir</h5>
                             </div>
                             <div className="mb-1 gap-4 d-lg-flex d-none">
-                                <a href="#" className="text-white nav-item text-decoration-none">
+                                <a onClick={() => scrollToSection('home')} className="text-white nav-item text-decoration-none cursor-pointer">
                                     Home
                                 </a>
-                                <a href="#" className="text-white nav-item text-decoration-none">
+                                <a onClick={() => scrollToSection('about')} className="text-white nav-item text-decoration-none cursor-pointer">
                                     About Me
                                 </a>
-                                <a href="#" className="text-white nav-item text-decoration-none">
-                                    Designs
+                                <a onClick={() => scrollToSection('journey')} className="text-white nav-item text-decoration-none cursor-pointer">
+                                    Journey
                                 </a>
-                                <a href="#" className="text-white nav-item text-decoration-none">
-                                    Services
-                                </a>
-                                <a href="#" className="text-white nav-item text-decoration-none">
-                                    Portfolio
-                                </a>
-                                <a href="#" className="text-white nav-item text-decoration-none">
-                                    Blog
+                                <a onClick={() => scrollToSection('skills')} className="text-white nav-item text-decoration-none cursor-pointer">
+                                    Skills
                                 </a>
                             </div>
-                            <button className="btn text-white rounded-pill btn-connect px-4 py-2">
+                            <button onClick={() => scrollToSection('connect')} className="btn text-white rounded-pill btn-connect px-4 py-2">
                                 Let's Connect
                             </button>
                         </div>

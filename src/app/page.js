@@ -5,10 +5,13 @@ import Skills from "@/components/Skills";
 import Connect from "@/components/Connect";
 import Footer from "@/components/Footer";
 import Journey from "@/components/Journey";
+import ScrollToTop from "@/components/ScrollToTop";
+import PageLoader from "@/components/PageLoader";
 
 export default function Home() {
     return (
         <div className="main-container">
+            <PageLoader />
             <Header />
             <Starter />
             <About />
@@ -16,6 +19,7 @@ export default function Home() {
             <Skills />
             <Connect />
             <Footer />
+            <ScrollToTop />
         </div>
     );
 }

@@ -40,7 +40,7 @@ export default function Journey() {
     }, []);
 
     return (
-        <div className="journey-container py-20 px-4 md:px-8 lg:px-16">
+        <div id="journey" className="journey-container py-20 px-4 md:px-8 lg:px-16">
             <div className="container mx-auto">
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-12 text-center">My Tech Journey</h2>
 

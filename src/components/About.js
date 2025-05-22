@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <div className={`about-section text-white py-5`}>
+        <div id="about" className={`about-section text-white py-5`}>
             <div className="text-center container">
                 <p className={`fw-bold sectionTitle`}>About Me 👋</p>
                 <h1 className={`fw-bold heading`}>Hi There! 👨‍💻</h1>

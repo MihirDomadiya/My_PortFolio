@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function starter() {
     return (
-        <div className=''>
+        <div id="home" className=''>
             <div>
                 <img src='/assets/images/ellipse2.png' alt="ellpse-1" className='ellipse-1 mx-auto d-block' />
             </div>
