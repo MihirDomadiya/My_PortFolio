@@ -1,82 +1,59 @@
 <h1 align="center">🌌 Mihir Domadiya – Full Stack Developer 🚀</h1>
-
-![Portfolio Screenshot](https://mihirdomadiya.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fbanner.png&w=1080&q=75)
-
-Welcome to my personal portfolio!  
-I’m **Mihir Domadiya**, a passionate **Full Stack Developer** with a love for clean code and creative designs.  
-This portfolio is built using modern web technologies, and it’s designed to showcase both my development skills and aesthetic sense.
-
----
-
-## 🌐 Live Website
-
-🔗 [https://mihirdomadiya.vercel.app/](https://mihirdomadiya.vercel.app/)
+<p align="center">
+  <strong>Building beautiful, functional, blazing-fast web experiences</strong><br/>
+  <a href="https://mihirdomadiya.vercel.app" target="_blank"><b>🌐 Visit Portfolio Website</b></a> • 
+  <a href="mailto:mihirdomadiya5@gmail.com"><b>📧 Email</b></a> • 
+  <a href="https://github.com/MihirDomadiya" target="_blank"><b>💻 GitHub</b></a> • 
+  <a href="https://linkedin.com/in/mihir-domadiya" target="_blank"><b>🔗 LinkedIn</b></a>
+</p>
 
 ---
 
-## 🧠 Overview
+## 📸 Overview
 
-A beautifully designed and performance-optimized **single-page application** portfolio using:
+This is my **official developer portfolio**, showcasing my technical journey, skills, and creative problem-solving ability. Built as a **Single Page Application (SPA)** using the latest modern web tools, it combines speed ⚡, style 🎨, and scalability 📈.
 
-- **Next.js 15.3.1 (App Router Architecture)**
-- **React 19.0.0 (Client & Server Components)**
-- **Tailwind CSS v4** + **Bootstrap 5.3.5**
-- **Google Fonts + Font Awesome + Bootstrap Icons**
-- **Modular Component-Based Architecture**
-- **Smooth Scrolling, Responsive Layouts & SEO Optimized**
+> 💡 Designed for developers, recruiters, and clients alike — with thoughtful UX, a clean dark UI, and smooth interaction patterns.
 
 ---
 
-## ⚙️ Core Technologies
+## 🛠️ Tech Stack
 
-### 📦 Framework & Architecture
-- **Next.js 15.3.1** – App Router pattern
-- **React 19.0.0** – Component-based modern UI
-- **Client/Server Components** – Hybrid rendering using \`use client\` directive
-
-### 🎨 Styling & Design
-- **Tailwind CSS v4** – Utility-first framework
-- **Bootstrap 5.3.5** – Grid & UI enhancements
-- **Custom CSS** – Located in \`public/assets/css/\`
-- **CDN Tailwind** – via \`<script src="https://cdn.tailwindcss.com"></script>\`
-
-### 🖋️ Fonts & Icons
-- **Google Fonts**: Rubik Iso, Bebas Neue
-- **Icons**: Font Awesome 6.4.0, Bootstrap Icons 1.10.5
+| Category          | Tools & Technologies |
+|------------------|----------------------|
+| ⚙️ Frameworks     | `Next.js 15.3.1`, `React 19` |
+| 🎨 Styling        | `Tailwind CSS v4`, `Bootstrap 5.3.5`, `Custom CSS` |
+| 🧠 Scripting      | `JavaScript`, `TypeScript` |
+| 🖼️ Fonts & Icons  | `Rubik Iso`, `Bebas Neue`, `Font Awesome`, `Bootstrap Icons` |
+| ⚡ Utilities      | `PostCSS`, `CDN`, `Next/Image`, `useEffect`, `useState` |
 
 ---
 
-## 🗂️ Project Structure
+## 🧱 Folder Structure
 
-\`\`\`
-├── /src/app              → App Router directory
-├── /src/components       → Modular components
-├── /public/assets        → Static assets (CSS, JS, images)
-├── /public/assets/css    → Global & custom styles
-└── jsconfig.json         → Path aliasing for @/*
-\`\`\`
-
-### 📁 Key Components
-- \`Header.js\` – Navigation with smooth scroll
-- \`Starter.js\` – Hero section
-- \`About.js\` – Intro & skills
-- \`Journey.js\` – Timeline section
-- \`Skills.js\` – Tech showcase
-- \`Connect.js\` – Contact form with service tags
-- \`Footer.js\` – Contact & socials
-- \`ScrollToTop.js\` – Scroll-to-top utility
+```bash
+📁 /src
+├── /app               # Next.js App Router
+├── /components        # All reusable React components
+📁 /public/assets
+├── /css               # Custom styles
+├── /images            # Portfolio assets
+├── /js                # Custom scripts
+```
 
 ---
 
-## 📬 Contact Form Automation
+## 🧩 Components Breakdown
 
-When a visitor fills out the **Connect form**:
-
-- ✉️ They receive a **beautiful confirmation email** from me
-- 🧾 Their data is **automatically saved in a connected Google Sheet**
-- 🔐 This system helps track leads professionally and efficiently
-
-> ✅ Built using **Node.js**, **Nodemailer**, and **Google Sheets API**
+Each section of the portfolio is modular and reusable:
+- `Header.js` – Sticky navbar with smooth scroll 🔗
+- `Starter.js` – Hero section with animated branding 💫
+- `About.js` – Bio and personal intro 👤
+- `Journey.js` – Timeline of my growth & experience 📆
+- `Skills.js` – Grid-based tech stack display 💻
+- `Connect.js` – Interactive contact form with service tags 📬
+- `Footer.js` – Social links & copyright
+- `ScrollToTop.js` – Custom floating button for smooth navigation ⬆️
 
 ---
 
@@ -88,71 +65,71 @@ When a visitor fills out the **Connect form**:
 ✅ Fast load with CDN & image optimization  
 ✅ Clean architecture using best practices  
 ✅ Easy to maintain and scale  
-✅ 📬 Contact form sends a **confirmation email** to user  
-✅ 🧾 Stores contact form data in **Google Sheets**  
-✅ 🌐 All external links open in new tabs
 
 ---
 
-## 📸 UX & Design Highlights
+## 📈 Performance & SEO
 
-- 🌓 **Dark theme** with accent colors
-- ✒️ Well-crafted **typography & spacing**
-- 🔍 Smooth scroll & interactive effects
-- 📱 Mobile-optimized responsive layout
-- 🧩 Interactive **requirement tags** in contact form
-- 🔼 Scroll-to-top button
+- ⚙️ Image Optimization: `next/image`
+- ⚡ CDN Resources: Google Fonts, Tailwind via CDN
+- 🧠 Metadata: SEO tags in `layout.js`
+- 🧹 Lazy Load & Code Splitting with dynamic imports
 
 ---
 
-## 🧑‍💼 Professional Positioning
+## 🚀 Deployment
 
-I am a developer who:
-
-- 🚀 Began my journey in **2024**
-- 🔄 Balances **technical skills** with **design sensibility**
-- 🧠 Stays current with modern technologies
-- 🎯 Values creativity, efficiency, and performance
+🛠️ **Deployed with**: [Vercel](https://vercel.com)  
+🌐 **Live URL**: [https://mihirdomadiya.vercel.app](https://mihirdomadiya.vercel.app)
 
 ---
 
-## 📁 Scripts
+## 🧪 Local Development
 
-\`\`\`bash
-npm run dev      # Start development server
-npm run build    # Create production build
-npm run start    # Run production version
-npm run lint     # Run ESLint
-\`\`\`
+```bash
+# 1. Clone the repo
+git clone https://github.com/MihirDomadiya/My_PortFolio.git
 
----
+# 2. Install dependencies
+npm install
 
-## 🔗 Connect With Me
+# 3. Start development server
+npm run dev
 
-📧 Email: [mihirdomadiya5@gmail.com](mailto:mihirdomadiya5@gmail.com)  
-💼 LinkedIn: [linkedin.com/in/mihir-domadiya](https://linkedin.com/in/mihir-domadiya)  
-💻 GitHub: [github.com/MihirDomadiya](https://github.com/MihirDomadiya)  
-📷 Instagram: [instagram.com/mihirdomadiya](https://instagram.com/mihirdomadiya)
+# 4. Build for production
+npm run build
 
----
-
-## 🧠 Future Enhancements
-
-- 🛠️ Add project showcase with live previews
-- 💬 Collect and show client testimonials
-- 📚 Add technical blog section
-- 🏗️ Expand backend projects and case studies
+# 5. Start production server
+npm run start
+```
 
 ---
 
-## 📁 GitHub Repo
+## 📬 Contact Me
 
-🔗 [https://github.com/MihirDomadiya/My_PortFolio](https://github.com/MihirDomadiya/My_PortFolio)
+Feel free to connect — whether for a job opportunity, freelance project, or collaboration!
+
+- 📧 **Email**: mihirdomadiya5@gmail.com  
+- 💼 **LinkedIn**: [linkedin.com/in/mihir-domadiya](https://linkedin.com/in/mihir-domadiya)  
+- 💻 **GitHub**: [github.com/MihirDomadiya](https://github.com/MihirDomadiya)  
+- 📸 **Instagram**: [@mihirdomadiya](https://instagram.com/mihirdomadiya)
 
 ---
 
-## 🙌 Thanks for Visiting!
+## 🛠 Future Enhancements
 
-If you liked it, feel free to connect or drop a ⭐ on the repo!
+- 🔍 Add a **project showcase** section
+- 💬 Integrate **client testimonials**
+- ✍️ Launch a **blog** for dev insights
+- 🧠 Add **live project demos** and case studies
 
-> _Crafted with 💙 by Mihir Domadiya_
+---
+
+## 📜 License
+
+This portfolio is open-source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center"><b>Built with 🔥 by Mihir Domadiya</b></p>
+<p align="center">Clean Code. Creative Designs. Real Impact.</p>
