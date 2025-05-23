@@ -7,6 +7,8 @@ import Footer from "@/components/Footer";
 import Journey from "@/components/Journey";
 import ScrollToTop from "@/components/ScrollToTop";
 import PageLoader from "@/components/PageLoader";
+import Testimonials from "@/components/Testimonials";
+import ChatWidget from "@/components/ChatWidget";
 
 export default function Home() {
     return (
@@ -17,9 +19,11 @@ export default function Home() {
             <About />
             <Journey />
             <Skills />
+            {/* <Testimonials /> */}
             <Connect />
             <Footer />
             <ScrollToTop />
+            {/* <ChatWidget /> */}
         </div>
     );
 }
