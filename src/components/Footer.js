@@ -41,9 +41,9 @@ export default function Footer() {
                                 <li><i className="bi bi-envelope-fill"></i> mihirdomadiya5@gmail.com</li>
                             </ul>
                             <div className="flex gap-3 mt-3 justify-center md:justify-start">
-                                <a href="https://www.linkedin.com/in/mihirdomadiya/"><i className="bi bi-linkedin text-xl hover:text-gray-400"></i></a>
-                                <a href="https://github.com/MihirDomadiya"><i className="bi bi-github text-xl hover:text-gray-400"></i></a>
-                                <a href="https://www.instagram.com/__.mihir.__.007/"><i className="bi bi-instagram text-xl hover:text-gray-400"></i></a>
+                                <a href="https://www.linkedin.com/in/mihirdomadiya/" target="_blank"><i className="bi bi-linkedin text-xl hover:text-gray-400"></i></a>
+                                <a href="https://github.com/MihirDomadiya" target="_blank"><i className="bi bi-github text-xl hover:text-gray-400"></i></a>
+                                <a href="https://www.instagram.com/__.mihir.__.007/" target="_blank"><i className="bi bi-instagram text-xl hover:text-gray-400"></i></a>
                             </div>
                         </div>
                     </div>
